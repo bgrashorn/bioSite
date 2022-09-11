@@ -1,0 +1,29 @@
+.name {
+    font-size: 600%;
+    font-family: 'Pacifico', cursive;
+    font-weight: 100;
+    text-align: center;
+}
+
+.speech-image {
+    width: 250px;
+    height: 250px;
+}
+
+.profile-photo {
+    height: 500px;
+
+}
+
+.switch-image {
+    height: 300px;
+    width: 450px;
+}
+
+.bella-image {
+    height: 300px;
+}
+
+.lego-image {
+    height: 300px;
+}
