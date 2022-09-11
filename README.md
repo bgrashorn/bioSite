@@ -3,6 +3,6 @@ This is a bioSite about Lexi Walker. This includes a landing page, about page, a
 <h1>WEB 200 Fundamentals of Web Development</h1>
 <h2>Contributors</h2>
 <ul>
-  <li>Brett Grashorn<li>
-  <li>Professor Krasso<li>
+  <li>Brett Grashorn</li>
+  <li>Professor Krasso</li>
   </ul>
