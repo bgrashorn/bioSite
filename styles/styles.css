@@ -1,3 +1,8 @@
+body {
+    background-color: #45CDFF;
+}
+
+/* Index */
 .name {
     font-size: 600%;
     font-family: 'Pacifico', cursive;
@@ -5,14 +10,94 @@
     text-align: center;
 }
 
+.landing-photos {
+    width: 1000px;
+    padding-left: 20%;
+
+}
+
+figure {
+    display: table;
+    
+    float: left;
+    margin: 30px;
+   
+}
+
+figcaption {
+    display: table-caption;
+    caption-side: bottom;
+    text-align: center;
+}
 .speech-image {
     width: 250px;
     height: 250px;
+    
+}
+
+.yearbook-image {
+    width: 250px;
+    
+}
+
+.graduation-image {
+    width: 250px;
+}
+
+.links {
+    margin-top: 25%;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+
+/* About */
+.header {
+    text-align: center;
+    font-size: 40px;
+    
 }
 
 .profile-photo {
-    height: 500px;
+    height: 800px;
+    float: right;
+    margin-right: 10%;
+    position: relative;
+    bottom: 540px;
+}
 
+.about-para {
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.paragraph {
+    width: 45%;
+    padding-left: 5%;
+    margin-top: 10%;
+}
+
+figcaption {
+    font: 15px;
+
+}
+
+/* Hobbies */
+.hobbies-header {
+    text-align: center;
+    font-size: 40px;
+}
+
+.hobbies-paragraph {
+    font-size: 20px;
+    line-height: 35px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.hobby-photos {
+    padding-left: 15%;
 }
 
 .switch-image {
