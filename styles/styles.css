@@ -1,5 +1,5 @@
 body {
-    background-color: #45CDFF;
+    background-color: #5792E6;
 }
 
 /* Index */
@@ -12,23 +12,24 @@ body {
 
 .landing-photos {
     width: 1000px;
-    padding-left: 20%;
-
+    padding-left: 25%;
+    display: table;
 }
 
 figure {
-    display: table;
-    
     float: left;
     margin: 30px;
-   
+    padding: 1%;
+    display: table;
 }
 
 figcaption {
     display: table-caption;
     caption-side: bottom;
     text-align: center;
+    font-family: 'Fredoka', Arial, Helvetica, sans-serif;
 }
+
 .speech-image {
     width: 250px;
     height: 250px;
@@ -37,6 +38,7 @@ figcaption {
 
 .yearbook-image {
     width: 250px;
+    height: 250px;
     
 }
 
@@ -45,31 +47,34 @@ figcaption {
 }
 
 .links {
-    margin-top: 25%;
+    margin-top: 15%;
     text-align: center;
     font-size: 40px;
-    
+    padding-bottom: 50px;
 }
 
 
 /* About */
+
 .header {
     text-align: center;
     font-size: 40px;
-    
+    text-decoration: underline;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .profile-photo {
-    height: 800px;
+    height: 700px;
     float: right;
     margin-right: 10%;
     position: relative;
-    bottom: 540px;
+    bottom: 600px;
 }
 
 .about-para {
     font-size: 20px;
     line-height: 35px;
+    font-family: 'Fredoka', Arial, Helvetica, sans-serif;
 }
 
 .paragraph {
@@ -80,13 +85,22 @@ figcaption {
 
 figcaption {
     font: 15px;
+    font-family: 'Fredoka', Arial, Helvetica, sans-serif;
+}
 
+.about-page-link {
+    margin-top: 12%;
+    font-size: 40px;
+    margin-left: 48%;
+    
 }
 
 /* Hobbies */
 .hobbies-header {
     text-align: center;
     font-size: 40px;
+    text-decoration: underline;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .hobbies-paragraph {
@@ -94,6 +108,7 @@ figcaption {
     line-height: 35px;
     padding-left: 5%;
     padding-right: 5%;
+    font-family: 'Fredoka', Arial, Helvetica, sans-serif;
 }
 
 .hobby-photos {
@@ -112,3 +127,4 @@ figcaption {
 .lego-image {
     height: 300px;
 }
+
