@@ -1,56 +1,102 @@
 body {
-    background-color: #5792E6;
+    /* background-color: #5792E6; */
+    background-image: linear-gradient(to bottom right, #0049e6, #ccdcff);
+   margin: 0;
+}
+
+/* NavBar */
+
+.navbar {
+    background-color: navy;
+    height: 47px;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14pt;
+    
+}
+
+.navbar a:hover {
+    background-color: rgb(1, 1, 80);
+}
+
+.bella-loaf {
+    height: 38px;
+    width: 40px;
+    padding-right: 15px;
+    padding-top: 3px;
+    float: right;
 }
 
 /* Index */
 .name {
+    padding-top: 0.5%;
     font-size: 600%;
     font-family: 'Pacifico', cursive;
     font-weight: 100;
     text-align: center;
+    color: #ccdcff;
 }
 
 .landing-photos {
-    width: 1000px;
-    padding-left: 25%;
-    display: table;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    padding-bottom: 250px;
 }
 
-figure {
-    float: left;
-    margin: 30px;
-    padding: 1%;
-    display: table;
-}
 
 figcaption {
-    display: table-caption;
-    caption-side: bottom;
     text-align: center;
     font-family: 'Fredoka', Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+    font-size: 14pt;
 }
 
 .speech-image {
     width: 250px;
     height: 250px;
-    
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 10px;
+} 
+
+.speech-image:hover {
+    box-shadow: 0 24px 32px 0 rgba(0, 0, 0, 0.2);
 }
 
 .yearbook-image {
     width: 250px;
     height: 250px;
-    
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 10px;
+}
+
+.yearbook-image:hover {
+    box-shadow: 0 24px 32px 0 rgba(0, 0, 0, 0.2);
 }
 
 .graduation-image {
     width: 250px;
+    height: 250px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 10px;
 }
 
-.links {
-    margin-top: 15%;
-    text-align: center;
-    font-size: 40px;
-    padding-bottom: 50px;
+.graduation-image:hover {
+    box-shadow: 0 24px 32px 0 rgba(0, 0, 0, 0.2);
 }
 
 
@@ -61,26 +107,40 @@ figcaption {
     font-size: 40px;
     text-decoration: underline;
     font-family: 'Roboto Mono', monospace;
+    padding-top: 0.5%;
 }
 
 .profile-photo {
-    height: 700px;
-    float: right;
-    margin-right: 10%;
-    position: relative;
-    bottom: 600px;
+    height: 600px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 10px;
+}
+
+.profile-photo:hover {
+    box-shadow: 0 24px 32px 0 rgba(0, 0, 0, 0.2);
 }
 
 .about-para {
     font-size: 20px;
     line-height: 35px;
     font-family: 'Fredoka', Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 .paragraph {
-    width: 45%;
+    width: 43%;
+    float: left;
+    padding-left: 8%;
+    padding-bottom: 50px;
+}
+
+.profile-container {
+    width: 40%;
+    float: right;
     padding-left: 5%;
-    margin-top: 10%;
+    padding-bottom: 50px;
 }
 
 figcaption {
@@ -88,12 +148,6 @@ figcaption {
     font-family: 'Fredoka', Arial, Helvetica, sans-serif;
 }
 
-.about-page-link {
-    margin-top: 12%;
-    font-size: 40px;
-    margin-left: 48%;
-    
-}
 
 /* Hobbies */
 .hobbies-header {
@@ -101,9 +155,11 @@ figcaption {
     font-size: 40px;
     text-decoration: underline;
     font-family: 'Roboto Mono', monospace;
+    padding-top: 0.5%;
 }
 
 .hobbies-paragraph {
+    text-align: center;
     font-size: 20px;
     line-height: 35px;
     padding-left: 5%;
@@ -112,19 +168,44 @@ figcaption {
 }
 
 .hobby-photos {
-    padding-left: 15%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
 }
 
 .switch-image {
     height: 300px;
     width: 450px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 10px;
+}
+
+.switch-image:hover {
+    box-shadow: 0 24px 32px 0 rgba(0, 0, 0, 0.2);
 }
 
 .bella-image {
     height: 300px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 10px;
+}
+
+.bella-image:hover {
+    box-shadow: 0 24px 32px 0 rgba(0, 0, 0, 0.2);
 }
 
 .lego-image {
     height: 300px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 10px;
 }
 
+.lego-image:hover {
+    box-shadow: 0 24px 32px 0 rgba(0, 0, 0, 0.2);
+}
