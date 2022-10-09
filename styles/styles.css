@@ -25,6 +25,7 @@ body {
 
 .navbar a:hover {
     background-color: rgb(1, 1, 80);
+    text-decoration: underline;
 }
 
 .bella-loaf {
@@ -43,6 +44,7 @@ body {
     font-weight: 100;
     text-align: center;
     color: #ccdcff;
+    text-shadow: 7px 7px black;
 }
 
 .landing-photos {
